@@ -1,16 +1,16 @@
 package org.example;
 
 import org.example.leetCode.MergeSortedArray;
+import org.example.leetCode.RemoveElement;
 import org.example.leetCode.TwoSum;
 
 public class Main {
     public static void main(String[] args) {
 
-        MergeSortedArray solution = new MergeSortedArray();
+        RemoveElement solution = new RemoveElement();
 
-        int[] nums1 = {0};
-        int[] nums2 = {1};
+        int[] nums = {3, 2, 2, 3};
 
-        solution.merge(nums1, 0, nums2, 1 );
+        solution.removeElement(nums,3);
     }
 }
