@@ -1,16 +1,15 @@
 package org.example;
 
-import org.example.leetCode.MergeSortedArray;
-import org.example.leetCode.RemoveElement;
-import org.example.leetCode.TwoSum;
+import org.example.leetCode.arrayAndString.RemoveDuplicatesFromSortedArray04;
+import org.example.leetCode.arrayAndString.RemoveElement03;
 
 public class Main {
     public static void main(String[] args) {
 
-        RemoveElement solution = new RemoveElement();
+        RemoveDuplicatesFromSortedArray04 solution = new RemoveDuplicatesFromSortedArray04();
 
-        int[] nums = {3, 2, 2, 3};
+        int[] nums = {0,0,1,1,1,2,2,3,3,4};
 
-        solution.removeElement(nums,3);
+        solution.removeDuplicates(nums);
     }
 }

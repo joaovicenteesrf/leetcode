@@ -1,8 +1,8 @@
-package org.example.leetCode;
+package org.example.leetCode.arrayAndString;
 
 import java.util.*;
 
-public class TwoSum {
+public class TwoSum01 {
 
     public int[] twoSumm(int[] nums, int target) {
 

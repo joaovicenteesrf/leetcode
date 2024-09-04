@@ -1,8 +1,8 @@
-package org.example.leetCode;
+package org.example.leetCode.arrayAndString;
 
 import java.util.Arrays;
 
-public class MergeSortedArray {
+public class MergeSortedArray02 {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 

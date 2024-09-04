@@ -1,6 +1,8 @@
-package org.example.leetCode;
+package org.example.leetCode.arrayAndString;
 
-public class RemoveElement {
+import java.util.Arrays;
+
+public class RemoveElement03 {
 
     public int removeElement(int[] nums, int val) {
         /*
